@@ -5,8 +5,8 @@
 
 */
 
-
-echo"hello world";
+include 'includes/menu_inc.php';
+// echo"hello world";
 //voici un commentaire sur une seul ligne//
 #voici un commetaire
 /*commentaire 1

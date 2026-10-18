@@ -1,0 +1,17 @@
+{
+    "fatima": {
+        "info": 16,
+        "math": 14,
+        "moyenne": 15
+    },
+    "hajar": {
+        "info": 12,
+        "math": 10,
+        "moyenne": 11
+    },
+    "ali": {
+        "info": 11,
+        "math": 9,
+        "moyenne": 15
+    }
+}

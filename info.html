@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <title>Informations (GET)</title>
+</head>
+<body>
+    <h2>Entrez vos informations</h2>
+    <form action="info.php" method="GET">
+        Nom :
+        <input type="text" name="nom" required><br><br>
+        
+        Prénom :
+        <input type="text" name="prenom" required><br><br>
+        
+        Sexe :
+        <select name="sexe">
+            <option value="M">(M) Masculin </option>
+            <option value="F">(F) Féminin </option>
+        </select><br><br>
+        
+        <input type="submit" value="Envoyer">
+        <input type="reset" value="Annuler">
+
+    </form>
+</body>
+</html>

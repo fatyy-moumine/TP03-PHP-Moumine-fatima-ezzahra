@@ -6,7 +6,7 @@
   partie 2
 
 */
-
+include 'includes/menu_inc.php';
 echo"<h1>Partie 2 : Structures de contrôle et boucles</h1>";
 
 echo"<h2>Exercice 2.1 : `if / elseif / else`</h2>";
@@ -103,7 +103,6 @@ echo"<h4>affichage des nombres paire avec for </h4>";
 for($i=1;$i<=10;$i++){
     if($i%2!=0){
         continue;
-
     }
     echo $i."<br>";
 
@@ -113,16 +112,13 @@ echo"<h4>`while`, `switch` et `break</h4>";
 $i = 1;
 while ($i <= 10) {
     switch ($i) {
-
         case 5:
             echo "At 5<br>";
             break;
-
         case 10:
             echo "At 10; quitting<br>";
             break 2;
     }
-
     $i++;
 }
 
